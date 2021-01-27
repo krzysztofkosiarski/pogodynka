@@ -39,6 +39,7 @@ def main():
 #funkcja czyszcząca pola na wynik pomiaru
 def delete_text():
     text.delete('1.0', tk.END)
+    entry.delete('0', tk.END)
 
 #tworzenie przycisku sprawdzenia
 button = tk.Button(frame, text='Sprawdź', padx=50, command=main)
