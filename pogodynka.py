@@ -12,7 +12,7 @@ label = tk.Label(frame, text='Wpisz miasto', width=20)
 label.pack()
 
 #tworzenie pola na wpisanie miasta
-entry = tk.Entry(0, width=30)
+entry = tk.Entry(0, width=25)
 entry.pack()
 
 #tworzenie pola wyniku pomiaru
@@ -45,7 +45,7 @@ def delete_text():
 button = tk.Button(frame, text='Sprawdź', padx=50, command=main)
 button.pack()
 
-#tworzenie przycisku czyszczenia okna
+#tworzenie przycisku czyszczenia okna miasta i pomiaru
 button_2 = tk.Button(frame, text='Wyczyść', padx=50, command=delete_text)
 button_2.pack()
 
